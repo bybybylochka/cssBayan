@@ -1,1 +1,155 @@
+body{
+    color: rgb(37, 113, 7);
+    background-color: blanchedalmond;
+}
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+}
+hr{
+    border: 1px solid black;
+    margin: 0;
+}
+.memes-block{
+    color:rgb(69, 75, 201);
+    
+}
+.memes-block:hover{
+    color:black;
+    cursor:grab;
+}
+.memes-block:hover .icon{
+    content: url(images/plus.svg);
+    width:3%;
+    height: auto;
+    transition: 2s;
+}
+.meme-title{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.transition{
+    transition: 2s;
+}
+.first:hover .meme-img, .first:focus .meme-img{
+    content: url(images/1.png);
+    width:40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+    color: black;
+    opacity: 1;
+    visibility: visible;
+    
+}
+.meme-img{
+    transition: 2s opacity, 2s visibility;
+    opacity: 0;
+    visibility: hidden;
+}
+.first:focus h3{
+    color:black;
+}
+.first:hover .icon{
+    content: url(images/plus.svg);
+    width:3%;
+    height: auto;
+    transform: rotate(45deg);
+}
+.first{
+    outline: none;
+}
+.second:hover .meme-img, .second:focus .meme-img{
+    content: url(images/2.png);
+    width:40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+    color: black;
+    opacity: 1;
+    visibility: visible;
+    
+}
 
+.second:focus h3{
+    color:black;
+}
+.second:hover .icon{
+    content: url(images/plus.svg);
+    width:3%;
+    height: auto;
+    transform: rotate(45deg);
+}
+
+
+.third:hover .meme-img, .third:focus .meme-img{
+    content: url(images/3.png);
+    width:40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+    color: black;
+    opacity: 1;
+    visibility: visible;
+    
+}
+.third:focus h3{
+    color:black;
+}
+.third:hover .icon{
+    content: url(images/plus.svg);
+    width:3%;
+    height: auto;
+    transform: rotate(45deg);
+}
+
+
+.fourth:hover .meme-img, .fourth:focus .meme-img{
+    content: url(images/4.png);
+    width:40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+    color: black;
+    opacity: 1;
+    visibility: visible;
+    
+}
+.fourth:focus h3{
+    color:black;
+}
+.fourth:hover .icon{
+    content: url(images/plus.svg);
+    width:3%;
+    height: auto;
+    transform: rotate(45deg);
+}
+
+
+.fifth:hover .meme-img, .fifth:focus .meme-img{
+    content: url(images/5.png);
+    width:40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+    color: black;
+    opacity: 1;
+    visibility: visible;
+    
+}
+.fifth:focus h3{
+    color:black;
+}
+.fifth:hover .icon{
+    content: url(images/plus.svg);
+    width:3%;
+    height: auto;
+    transform: rotate(45deg);
+}

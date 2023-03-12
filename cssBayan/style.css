@@ -1,0 +1,277 @@
+body{
+    color: rgb(37, 113, 7);
+    background-color: blanchedalmond;
+}
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+}
+hr{
+    border: 1px solid black;
+    margin: 0;
+}
+.memes-block{
+    color:rgb(69, 75, 201);
+    
+}
+.meme:hover, .meme:focus{
+    overflow: hidden;
+    max-height: 65rem;
+    transition: max-height 2s ;
+}
+.meme{
+    max-height: 5rem;
+    transition: max-height 2s ;    
+}
+
+
+@media (min-width: 821px){
+    .memes-block:hover{
+        color:black;
+        cursor:grab;
+    }
+    .memes-block:hover .icon{
+        content: url(images/plus.svg);
+        width:3%;
+        height: auto;
+        transition: 2s;
+    }
+    .first:hover .meme-img{
+        content: url(images/1.png);
+        width:40%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 2%;
+        color: black;
+        opacity: 1;
+        visibility: visible;
+        
+    }
+    .first:hover .icon{
+        content: url(images/plus.svg);
+        width:3%;
+        height: auto;
+        transform: rotate(45deg);
+    }
+    .second:hover .meme-img{
+        content: url(images/2.png);
+        width:40%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 2%;
+        color: black;
+        opacity: 1;
+        visibility: visible;
+        
+    }
+    .second:hover .icon{
+        content: url(images/plus.svg);
+        width:3%;
+        height: auto;
+        transform: rotate(45deg);
+    }
+    
+    
+    .third:hover .meme-img{
+        content: url(images/3.png);
+        width:40%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 2%;
+        color: black;
+        opacity: 1;
+        visibility: visible;
+        
+    }
+    .third:hover .icon{
+        content: url(images/plus.svg);
+        width:3%;
+        height: auto;
+        transform: rotate(45deg);
+    }
+    
+    
+    .fourth:hover .meme-img{
+        content: url(images/4.png);
+        width:40%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 2%;
+        color: black;
+        opacity: 1;
+        visibility: visible;
+        
+    }
+    .fourth:hover .icon{
+        content: url(images/plus.svg);
+        width:3%;
+        height: auto;
+        transform: rotate(45deg);
+    }
+    
+    
+    .fifth:hover .meme-img{
+        content: url(images/5.png);
+        width:40%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 2%;
+        color: black;
+        opacity: 1;
+        visibility: visible;
+        
+    }
+    .fifth:hover .icon{
+        content: url(images/plus.svg);
+        width:3%;
+        height: auto;
+        transform: rotate(45deg);
+    }
+}
+
+.meme-title{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.transition{
+    transition: 2s;
+}
+.first:focus .meme-img{
+    content: url(images/1.png);
+    width:40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+    color: black;
+    opacity: 1;
+    visibility: visible;
+    
+}
+.meme-img{
+    transition: 2s opacity, 2s visibility;
+    opacity: 0;
+    visibility: hidden;
+}
+.first:focus h3{
+    color:black;
+}
+
+.first{
+    outline: none;
+}
+.second:focus .meme-img{
+    content: url(images/2.png);
+    width:40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+    color: black;
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+.second:focus h3{
+    color:black;
+}
+
+
+.third:focus .meme-img{
+    content: url(images/3.png);
+    width:40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+    color: black;
+    opacity: 1;
+    visibility: visible;
+    
+}
+.third:focus h3{
+    color:black;
+}
+
+
+
+.fourth:focus .meme-img{
+    content: url(images/4.png);
+    width:40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+    color: black;
+    opacity: 1;
+    visibility: visible;
+    
+}
+.fourth:focus h3{
+    color:black;
+}
+
+.fifth:focus .meme-img{
+    content: url(images/5.png);
+    width:40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+    color: black;
+    opacity: 1;
+    visibility: visible;
+    
+}
+.fifth:focus h3{
+    color:black;
+}
+
+@media (max-width:820px) {
+    body{
+        font-size: 90%;
+    }
+    .icon{
+        content: url(images/plus.svg);
+        width:3%;
+        height: auto;
+        transition: 2s;
+    }
+    .first:focus .icon, .second:focus .icon, .third:focus .icon, .fourth:focus .icon, .fifth:focus .icon{
+        content: url(images/plus.svg);
+        width:3%;
+        height: auto;
+        transform: rotate(45deg);
+    }
+    .first:focus .meme-img, .second:focus .meme-img, .third:focus .meme-img, .fourth:focus .meme-img, .fifth:focus .meme-img{
+        width:100%;
+    }
+}
+@media (max-width:320px){
+    body{
+        font-size: 80%;
+    }
+    .icon{
+        content: url(images/plus.svg);
+        width:3%;
+        height: auto;
+        transition: 2s;
+    }
+    .first:focus .icon, .second:focus .icon, .third:focus .icon, .fourth:focus .icon, .fifth:focus .icon{
+        content: url(images/plus.svg);
+        width:3%;
+        height: auto;
+        transform: rotate(45deg);
+    }
+    .first:focus .meme-img, .second:focus .meme-img, .third:focus .meme-img, .fourth:focus .meme-img, .fifth:focus .meme-img{
+        width:100%;
+    }
+}
